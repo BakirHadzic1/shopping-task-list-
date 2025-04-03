@@ -89,6 +89,8 @@ window.onload = function () {
   renderTasks();
 };
 
+
+//Dodao na enter 
 document.getElementById("itemInput").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
         addItem();
